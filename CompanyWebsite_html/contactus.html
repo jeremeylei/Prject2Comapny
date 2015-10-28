@@ -3,7 +3,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Personal Shopper</title>
+    <title>Contact Us</title>
     <link href="css/main.css" rel="stylesheet">
   </head>
 
@@ -23,63 +23,83 @@
           </div>
 
           <div class="main-nav-item">
-            <a class="button-nav" href="#">Design Service</a>
+            <a class="button-nav" href="designService.html">Design Service</a>
           </div>
 
           <div class="main-nav-item">
-            <a class="button-nav" href="#">Works</a>
+            <a class="button-nav" href="works.html">Works</a>
           </div>
 
           <div class="main-nav-item">
             <a class="button-nav" href="contactus.html">Contact Us</a>
           </div>
       	</nav>
+
+        <div class="my-cart">
+          <a class ="cart-button" href="cart.html">My Cart</a>
+        </div>
     </header>
 
 
 
 
-          
-          <article id="about-us">
+    <div class="contact-panel">      
+          <div id="about-us">
 
 
-            <h1>About RAWA Design</h1>
+            <h1>About RAAW +design</h1>
 
-            <p>RAWA Design is the brand name of America's most global retail furniture chain with more than 250 stores in 60 countries around the world.<p>
+            <p>RAAW Design is the brand name of America's most global retail furniture chain with more than 250 stores in 60 countries around the world.<p>
 
-            <h2>Passion at our core</h2>
+            <h2>Passion at Our Core</h2>
             
             <p>Passion and persistence are what move the people behind the RAWA Design brand, whether they are designing a wall unit, leading a team, or managing a store. Our common mission is to make modern design furniture available to the urban-minded customer.</p>
 
-          </article>
+          </div>
 
-          <article id="contact">
+
+
+          <div id="contact-us">
 
             <h2>Contact Us</h2>
-            <div class="contact-content">
-              <h3>Phone</h3>
-              <a href=""> 1-866-444-0777</a>
 
-              <h3>Hours/Days of Operation</h3> 
-              <p>Monday - Friday 8:00 am - 4:30 pm EST<p>
-            </div>
+            <h3>Phone</h3>
+            <a href=""> 1-866-444-0777</a>
+            <h3>Hours</h3> 
+            <p>Monday - Friday <br>8:00 am - 4:30 pm EST</p>
+            <p>Satuday - Sunday <br> 9:00 am - 4:30 pm EST</p>
 
-            <div class="contact-content">
-              <h3>Send us an Email</h3>
-              <a href="">info@rawadesign.ca</a>
-            </div>
+            <h3>Email</h3>
+            <a href="">info@raawdesign.ca</a>
 
-            <div class="contact-content">
-              <h3>Address</h3>
-              <p>2880 Broadway, New York, USA 10025</p>
-            </div>
-          </article>
+            <h3>Address</h3>
+            <p>2880 Broadway, New York, USA 10025</p>
+   
+          </div>
+
 
 
           <div id="gmap">
-            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script><div style="overflow:hidden;height:500px;width:600px;"><div id="gmap_canvas" style="height:500px;width:600px;"></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style><a class="google-map-code" href="http://www.themecircle.net" id="get-map-data">http://www.themecircle.net/</a></div><script type="text/javascript"> function init_map(){var myOptions = {zoom:14,center:new google.maps.LatLng(40.805478,-73.96522499999998),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.805478, -73.96522499999998)});infowindow = new google.maps.InfoWindow({content:"<b>The Breslin</b><br/>2880 Broadway<br/> New York" });google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
-        
+              <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+              <div style="overflow:hidden;height:auto;width:auto;max-width:100%;">
+
+              <div id="gmap_canvas" style="height:500px;width:600px;"></div>
+
+              <style>#gmap_canvas img{max-width:none!important;background:none!important}</style>
+
+              </div>
+
+              <script type="text/javascript"> function init_map(){
+                var myOptions = {zoom:14,center:new google.maps.LatLng(40.805478,-73.96522499999998),mapTypeId: google.maps.MapTypeId.ROADMAP};
+                map = new google.maps.Map(document.getElementById("gmap_canvas"), myOptions);
+                marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.805478, -73.96522499999998)});
+                infowindow = new google.maps.InfoWindow({content:"<b>The Breslin</b><br/>2880 Broadway<br/> New York" });
+                google.maps.event.addListener(marker, "click", function(){infowindow.open(map,marker);});
+                infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);
+              </script>
           </div>
+    </div>
 
 
 
