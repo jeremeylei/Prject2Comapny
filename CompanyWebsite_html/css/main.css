@@ -59,6 +59,13 @@ footer ul li{
   padding:0.2em 0;
 }
 
+footer ul.socialmedia li{
+
+    list-style: none;
+    float: left;
+    margin: 10px 15px 25px 0;
+}
+
 /*titles---------------------------------*/
 h1 {
   display: block;
@@ -447,13 +454,50 @@ h3.on-top-panel-service:hover, h3.on-top-panel-service:focus {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
 
+
+
   -webkit-transition: color 0.5s ease-in-out-out, border-color 0.5s ease-in-out;
   transition: color 0.5s ease-in-out, border-color 0.5s ease-in-out;
 }
+
 .button-nav:hover, .button-nav:focus {
   color: #E64848;
   border-color: #E64848;
 
+}
+
+.button-nav-selected {
+
+  display: block;
+
+  width:80%;
+
+  background-color: black;
+  color: #fff;
+
+  text-decoration: none;
+  font-size: 0.9em;
+  text-align: center;
+
+  border-color: #FFF;
+  border-style: solid;
+  border-width: 0.12em;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.4em;
+  margin-bottom: 0.4em;
+
+  padding-left:0.6em;
+  padding-right: 0.6em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
+  color: #E64848;
+  border-color: #E64848;
+
+  -webkit-transition: color 0.5s ease-in-out-out, border-color 0.5s ease-in-out;
+  transition: color 0.5s ease-in-out, border-color 0.5s ease-in-out;
 }
 
 
