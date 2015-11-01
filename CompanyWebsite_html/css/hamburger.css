@@ -1,0 +1,64 @@
+
+
+.nav-toggle {
+	background-color: black;
+	display: block;
+
+	color: #FFFFFF;
+	padding: 1em 1.25em;
+	text-decoration: none;
+}
+
+
+/*
+	Here we hide use .hidden and .shown to enable classes to show and hide our .nav-toggle
+*/
+.nav-toggle.hidden {
+	visibility: hidden;
+	position: absolute;	
+}
+
+.nav-toggle.shown {
+	visibility: visible;
+	position: relative;
+}
+
+
+
+@media only screen and (max-device-width: 376px) {
+
+	.nav-toggle {
+		visibility: visible;
+		position: relative;
+	}
+	.main-nav-item{
+		width:100%;
+	}
+	.main-nav-item-search{
+		position: absolute;
+
+		right:0em;
+		top:3.5em;
+	}
+	.search-text{
+		width:100%;
+	}
+}
+		/*because the width of .main-nav-item-search is still 20%(not changed to 100% from 20% -->screen)
+	}
+}
+
+/*
+	We can also have the nav-toggle appear visible by default at small display resolutions using media queries. We have commented this out for now
+
+@media (max-width: 22em) {
+
+	.nav-toggle {
+		visibility: visible;
+		position: relative;
+	}
+
+}
+*/
+
+
